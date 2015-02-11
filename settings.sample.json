@@ -1,0 +1,21 @@
+/*
+ Example settings file.
+ DELETE ALL COMMENTS after copying to settings.json
+*/
+{
+  "from": "Sam Spade <sam@spade.org>",
+  "defaultTo": {
+    "name": "Sam Spade",
+    "email": "sam@spade.org"
+  },
+  "transport": {
+    "type": "SMTP",
+    "options": {
+      "service": "Gmail", // For a full list of service providers see: https://github.com/andris9/nodemailer-wellknown#supported-services
+      "auth": {
+        "user": "******@gmail.com",
+        "pass": "password123"
+      }
+    }
+  }
+}

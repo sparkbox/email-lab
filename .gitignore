@@ -1,0 +1,5 @@
+node_modules
+tmp
+dist
+.sass-cache
+settings.json

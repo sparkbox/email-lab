@@ -1,0 +1,14 @@
+---
+layout: index.hbs
+page: true
+---
+  <h1>{{site.title}}</h1>
+
+
+  <ul>
+    {{#each pages}}
+      {{#unless data.page}}
+      <li><a href="emails/{{basename}}.html">{{data.title}}</a></li>
+      {{/unless}}
+    {{/each}}
+  </ul>
