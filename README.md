@@ -20,10 +20,10 @@ Once these are installed successfully complete the following steps to setup the 
 
 1. Run the command `bundle install` to install required Ruby Gems
 2. Run the command `npm install` to install required node packages
-3. Rename `settings.sample.json` to `settings.json` and configure the following:
-  - From email address
-  - Default To email address
-  - SMTP Provider settings
+3. Copy `settings.sample.json` to `settings.json` and configure the following:
+    - From email address
+    - Default To email address
+    - SMTP Provider settings (see a [full list of supported providers](https://github.com/andris9/nodemailer-wellknown#supported-services))
 
 That's it! Sing and dance. The email template code is ready for development and testing.
 
