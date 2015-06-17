@@ -75,11 +75,6 @@ other resources for additional layout templates and styling best practices:
 - [Mailchimp Email Design Reference](http://templates.mailchimp.com/) - Great reference guide for designing HTML emails
 - [Email Client Market Share](http://emailclientmarketshare.com/) - List of the most popular email clients
 
-##Caveats
-
-Designing email templates is hard. Markup and styling for emails clients can be very different from what you would 
-develop for the browser. This project is intended to 
-
 ##Todo
 
 - Create Yeoman generator that configures options, sets up Nodemailer and generates new email templates
