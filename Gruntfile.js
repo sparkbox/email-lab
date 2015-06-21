@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 
     watch: {
       assemble: {
-        files: ['<%= config.src %>/{data,templates}/{,*/}*.{md,hbs,yml}'],
+        files: ['<%= config.src %>/{data,templates}/{,*/}*.{md,hbs,yml,json}'],
         tasks: ['assemble']
       },
       sass: {
