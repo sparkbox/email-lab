@@ -44,7 +44,7 @@ module.exports = function(grunt) {
         },
         files: [
           '<%= config.tmp %>/{,*/}*.html',
-          '<%= config.tmp %>/css/{,*/}*.css',
+          '<%= config.tmp %>/emails/css/{,*/}*.css',
           '<%= config.tmp %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       }
