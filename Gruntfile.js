@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 
   require('time-grunt')(grunt);
   require('load-grunt-tasks')(grunt);
-  grunt.loadNpmTasks('assemble');
+  grunt.loadNpmTasks('grunt-assemble');
 
   // Project configuration.
   grunt.initConfig({
