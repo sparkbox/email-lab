@@ -5,6 +5,6 @@ email-lab:
         - 35729:35729
     volumes:
         - ./src:/usr/src/app/src
-        - ./settings.sample.json:/usr/src/app/settings.json
+        - ./settings.json:/usr/src/app/settings.json
     environment:
         - HOSTNAME=0.0.0.0

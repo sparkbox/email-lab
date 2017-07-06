@@ -27,6 +27,24 @@ Once these are installed successfully complete the following steps to setup the 
 
 That's it! Sing and dance. The email template code is ready for development and testing.
 
+## Setup and Installation with Docker
+
+You will need the following tools installed in order to complete the setup.
+
+- [Docker](https://www.docker.com)
+
+Once these are installed successfully complete the following steps to setup the project (run commands from the project root directory).
+
+1. Copy `settings.sample.json` to `settings.json` and configure the following:
+    - From email address
+    - Default To email address
+    - SMTP Provider settings (see a [full list of supported providers](https://github.com/andris9/nodemailer-wellknown#supported-services))
+1. Run the command `docker-compose up` to build and run the docker image.
+
+Once it finishes, you can access the email templates at http://localhost:9000/ in your browser.
+
+That's it! Sing and dance. The email template code is ready for development and testing.
+
 ## Grunt
 
 Grunt is a tool for automating workflow tasks. It is configured to easily preview, test and build your templates.
@@ -70,7 +88,7 @@ template simply create a new file in `src/templates/emails` with the .hbs extens
 This project provides some standard boilerplate HTML markup and styling for emails. We recommend checking out these
 other resources for additional layout templates and styling best practices:
 
-- [HTML Email Boilerplate](https://github.com/seanpowell/Email-Boilerplate) - Well-documented boilerplate template 
+- [HTML Email Boilerplate](https://github.com/seanpowell/Email-Boilerplate) - Well-documented boilerplate template
 - [Mailchimp Email Blueprints](https://github.com/mailchimp/Email-Blueprints) - Lots of template for various layouts, including responsive template
 - [Mailchimp Email Design Reference](http://templates.mailchimp.com/) - Great reference guide for designing HTML emails
 - [Email Client Market Share](http://emailclientmarketshare.com/) - List of the most popular email clients
