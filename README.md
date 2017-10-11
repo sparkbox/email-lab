@@ -45,6 +45,11 @@ Once it finishes, you can access the email templates at http://localhost:9000/ i
 
 That's it! Sing and dance. The email template code is ready for development and testing.
 
+When you are done with development, you will want to remove the project from Docker.
+
+Run command `docker-compse down` to remove the docker container.
+
+
 ## Grunt
 
 Grunt is a tool for automating workflow tasks. It is configured to easily preview, test and build your templates.
