@@ -1,0 +1,10 @@
+email-lab:
+    build: .
+    ports:
+        - 9000:9000
+        - 35729:35729
+    volumes:
+        - ./src:/usr/src/app/src
+        - ./settings.json:/usr/src/app/settings.json
+    environment:
+        - HOSTNAME=0.0.0.0

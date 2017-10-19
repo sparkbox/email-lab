@@ -12,6 +12,9 @@
     "node": ">=0.10.0",
     "npm": ">=1.3"
   },
+  "scripts": {
+    "start": "grunt server"
+  },
   "devDependencies": {
     "grunt": "~1.0.0",
     "grunt-assemble": "^0.4.0",
