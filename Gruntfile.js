@@ -3,7 +3,6 @@
 // '<%= config.src %>/templates/pages/{,*/}*.hbs'
 // use this if you want to match all subfolders:
 // '<%= config.src %>/templates/pages/**/*.hbs'
-
 /* globals module, require */
 
 module.exports = function(grunt) {
@@ -13,6 +12,8 @@ module.exports = function(grunt) {
   var settings = grunt.file.readJSON('settings.json');
 
   require('time-grunt')(grunt);
+  var sass = require('node-sass');
+
   require('load-grunt-tasks')(grunt);
   grunt.loadNpmTasks('grunt-assemble');
 
@@ -69,6 +70,7 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
+        implementation: sass,
         sourceMap: true
       },
       dev: {
@@ -124,7 +126,7 @@ module.exports = function(grunt) {
         layout: 'email.hbs',
         layoutdir: '<%= config.src %>/templates/layouts',
         data: '<%= config.src %>/data/*.{json,yml}',
-        partials: '<%= config.src %>/templates/partials/*.hbs'
+        partials: '<%= config.src %>/templates/partials/*.hbs',
       },
       dev: {
         files: {
@@ -212,3 +214,4 @@ module.exports = function(grunt) {
   ]);
 
 };
+
