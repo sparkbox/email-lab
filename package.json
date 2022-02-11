@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "check-node-version": "^4.0.3",
-    "node-sass": "^4.14"
+    "node-sass": "^7.0"
   }
 }
