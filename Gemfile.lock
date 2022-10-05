@@ -1,8 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.5.1)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     css_parser (1.5.0)
       addressable
     htmlentities (4.3.4)
@@ -13,7 +13,7 @@ GEM
       addressable
       css_parser (>= 1.4.10)
       htmlentities (>= 4.0.0)
-    public_suffix (2.0.5)
+    public_suffix (5.0.0)
 
 PLATFORMS
   ruby
