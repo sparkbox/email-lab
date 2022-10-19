@@ -6,20 +6,22 @@ GEM
     css_parser (1.5.0)
       addressable
     htmlentities (4.3.4)
-    mini_portile2 (2.1.0)
-    nokogiri (1.7.1)
-      mini_portile2 (~> 2.1.0)
+    mini_portile2 (2.8.0)
+    nokogiri (1.13.9)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     premailer (1.10.3)
       addressable
       css_parser (>= 1.4.10)
       htmlentities (>= 4.0.0)
     public_suffix (2.0.5)
+    racc (1.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri (~> 1.7.1)
+  nokogiri (~> 1.13.9)
   premailer (~> 1.10.3)
 
 BUNDLED WITH
